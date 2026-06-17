@@ -56,7 +56,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav style={{ display:'flex', alignItems:'center', gap:36 }} className="hidden md:flex">
+          <nav style={{ alignItems:'center', gap:36 }} className="hidden md:flex">
             {NAV_LINKS.map((link) => (
               <NavLink
                 key={link.path}
