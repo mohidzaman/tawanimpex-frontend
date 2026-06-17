@@ -105,7 +105,7 @@ export default function Navbar() {
           display:    'flex',
           flexDirection: 'column',
           paddingTop: '80px',
-          transform:  menuOpen ? 'translateX(0)' : 'translateX(-100%)',
+          transform:  menuOpen ? 'translateX(0)' : 'translateX(100%)',
           transition: 'transform 0.3s ease',
         }}
       >
