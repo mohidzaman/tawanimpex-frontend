@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- White background with rounded corners -->
+  <rect width="100" height="100" fill="white" rx="10"/>
+
+  <!-- All columns bottom-aligned at y=88 -->
+  <!-- Heights step up toward center: 35, 50, 62, 75 (red), 62, 50, 35 -->
+
+  <!-- Outermost left yellow column (shortest) h=35 → top=53 -->
+  <rect x="4"  y="53" width="11" height="35" fill="#FFD700" rx="2"/>
+  <!-- Middle-outer left yellow column h=50 → top=38 -->
+  <rect x="18" y="38" width="11" height="50" fill="#FFD700" rx="2"/>
+  <!-- Inner left yellow column h=63 → top=25 -->
+  <rect x="32" y="25" width="11" height="63" fill="#FFD700" rx="2"/>
+
+  <!-- Center red column (tallest) h=76 → top=12 -->
+  <rect x="44" y="12" width="12" height="76" fill="#CC0000" rx="2"/>
+
+  <!-- Inner right yellow column h=63 → top=25 -->
+  <rect x="57" y="25" width="11" height="63" fill="#FFD700" rx="2"/>
+  <!-- Middle-outer right yellow column h=50 → top=38 -->
+  <rect x="71" y="38" width="11" height="50" fill="#FFD700" rx="2"/>
+  <!-- Outermost right yellow column (shortest) h=35 → top=53 -->
+  <rect x="85" y="53" width="11" height="35" fill="#FFD700" rx="2"/>
+</svg>

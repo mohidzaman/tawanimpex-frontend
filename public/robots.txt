@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tawanimpex.com/sitemap.xml
+
+# Block admin
+User-agent: *
+Disallow: /admin/
