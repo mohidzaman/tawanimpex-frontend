@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import MainLayout from './layouts/MainLayout';
 import LoadingScreen from './components/common/LoadingScreen';
 import PageLoader from './components/common/PageLoader';
+import ScrollToTop from './components/common/ScrollToTop';
 
 // Lazy load pages for code splitting & initial paint performance
 const Home          = lazy(() => import('./pages/Home'));
@@ -39,6 +40,7 @@ export default function App() {
         <LoadingScreen onComplete={() => setInitialLoading(false)} />
       )}
       <BrowserRouter>
+        <ScrollToTop />
         <Suspense fallback={<PageLoader />}>
           <Routes>
             {/* Client layout */}

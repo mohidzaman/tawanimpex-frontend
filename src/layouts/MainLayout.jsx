@@ -14,6 +14,7 @@ export default function MainLayout() {
   useEffect(() => {
     // Reset and start progress
     setProgress(15);
+    window.scrollTo(0, 0);
     const t1 = setTimeout(() => setProgress(45), 60);
     const t2 = setTimeout(() => setProgress(75), 150);
     const t3 = setTimeout(() => setProgress(90), 300);
