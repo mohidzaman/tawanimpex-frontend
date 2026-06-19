@@ -159,7 +159,7 @@ export default function Footer() {
       <div style={{ borderTop: '1px solid #2A2A2D' }}>
         <div className="container-main" style={{ paddingBlock:24, display:'flex', alignItems:'center', justifyContent:'space-between', flexWrap:'wrap', gap:16 }}>
           <p style={{ fontFamily:'Inter,sans-serif', fontSize:12, color:'#A1A1A1', letterSpacing:'0.05em', textTransform:'uppercase', margin:0 }}>
-            © {new Date().getFullYear()} TAWAN IMPEX. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} TAWAN IMPEX. BUILT BY SERVSA.
           </p>
           <p style={{ fontFamily:'Montserrat,sans-serif', fontSize:11, color:'#4D4635', fontWeight:600, letterSpacing:'0.1em', textTransform:'uppercase', margin:0 }}>
             INDUSTRIAL PRECISION SPORTSWEAR • SIALKOT, PAKISTAN
