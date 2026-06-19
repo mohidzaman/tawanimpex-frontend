@@ -53,7 +53,7 @@ export default function About() {
               </div>
               <div className="reveal delay-100">
                 <h1 style={{ fontFamily:'Montserrat,sans-serif', fontWeight:800, fontSize:'clamp(28px,5vw,56px)', lineHeight:1.15, letterSpacing:'-0.02em', color:'#EAE1D4', margin:'0 0 20px 0' }}>
-                  15+ Years of Industrial Precision Sportswear
+                  4 Years of Industrial Precision Sportswear
                 </h1>
               </div>
               <div className="reveal delay-200">
