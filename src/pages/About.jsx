@@ -167,11 +167,11 @@ export default function About() {
                   Built for Industrial Scale
                 </h2>
                 <p style={{ fontFamily:'Inter,sans-serif', fontSize:15, color:'#A1A1A1', lineHeight:1.8, marginBottom:32 }}>
-                  Our 8,000 sq ft facility in Sialkot's Industrial Zone houses 60+ skilled workers across specialized production lines. Every workstation is purpose-built for sportswear manufacturing with precision and repeatability.
+                  Our 8,000 sq ft facility in Sialkot's Industrial Zone houses 23+ skilled workers across specialized production lines. Every workstation is purpose-built for sportswear manufacturing with precision and repeatability.
                 </p>
               </div>
               <div className="reveal delay-200" style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
-                {[['8,000 sq ft','Factory Floor'],['60+','Skilled Workers'],['40+','Machines'],['4','Years Experience']].map(([v,l]) => (
+                {[['8,000 sq ft','Factory Floor'],['23+','Skilled Workers'],['40+','Machines'],['4','Years Experience']].map(([v,l]) => (
                   <div key={l} style={{ padding:20, background:'#1B1B1D', border:'1px solid #2A2A2D', borderRadius:10 }}>
                     <div style={{ fontFamily:'Montserrat,sans-serif', fontWeight:800, fontSize:22, color:'#D4AF37', letterSpacing:'-0.02em', marginBottom:4 }}>{v}</div>
                     <div style={{ fontFamily:'Inter,sans-serif', fontSize:12, color:'#A1A1A1', letterSpacing:'0.06em', textTransform:'uppercase' }}>{l}</div>
