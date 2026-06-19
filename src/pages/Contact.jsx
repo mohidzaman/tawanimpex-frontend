@@ -78,7 +78,11 @@ export default function Contact() {
       setSubmitted(true);
     } catch (err) {
       console.error(err);
-      setErrorMsg(err.response?.data?.message || 'Failed to submit inquiry. Please try again or message us on WhatsApp.');
+      setErrorMsg(
+        err.friendlyMessage ||
+        err.response?.data?.message ||
+        'Failed to submit inquiry. Please try again or message us on WhatsApp.'
+      );
     } finally {
       setSubmitting(false);
     }
